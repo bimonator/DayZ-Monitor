@@ -729,7 +729,7 @@ EUROPE_BORDERS = [
 # is missing, only Europe is available - the report still works.
 #
 # Which region gets drawn depends on the geo-located server: a server in
-# Falkenstein shows Europe, one in Dallas shows North America. See
+# Frankfurt shows Europe, one in Dallas shows North America. See
 # select_region().
 
 def shapes_bbox(shapes):

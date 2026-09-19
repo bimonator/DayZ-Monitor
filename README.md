@@ -217,7 +217,7 @@ Four regions ship with it, and the one you get follows your server:
 
 | Region | Covers | Picked for a server in |
 |---|---|---|
-| `europe` | Iceland to the Urals, hand-drawn | Falkenstein, Amsterdam, Warsaw |
+| `europe` | Iceland to the Urals, hand-drawn | Frankfurt, Amsterdam, Warsaw |
 | `north_america` | Alaska to Panama, plus the Caribbean | Dallas, Montreal, Los Angeles |
 | `asia` | Turkey to Japan, down to Indonesia | Tokyo, Singapore, Mumbai |
 | `africa` | the whole continent plus Madagascar | Johannesburg, Lagos, Cairo |
