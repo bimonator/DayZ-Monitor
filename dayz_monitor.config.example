@@ -1,0 +1,6 @@
+{
+  "ip": "203.0.113.10",
+  "port": 2302,
+  "interval": 30,
+  "webhook": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+}

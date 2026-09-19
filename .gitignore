@@ -1,0 +1,22 @@
+# Secrets / local config
+dayz_monitor.config
+
+# Generated / runtime data (contains live player data — don't publish)
+dayz_monitor_log.csv
+.dayz_location_cache.json
+dayz_report.html
+reports/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Map source data (13.5 MB, download it yourself - see tools/build_map_data.py)
+.dayz_europe.geojson
+countries.geojson

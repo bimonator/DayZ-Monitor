@@ -1,0 +1,22 @@
+# systemd unit for the DayZ monitor.
+#
+#   1. Replace "pi" with your own Linux username (3x below).
+#   2. sudo cp dayz-monitor.service.example /etc/systemd/system/dayz-monitor.service
+#   3. sudo systemctl daemon-reload
+#   4. sudo systemctl enable --now dayz-monitor
+
+[Unit]
+Description=DayZ Server Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/DayZ-Monitor
+ExecStart=/home/pi/DayZ-Monitor/venv/bin/python dayz_monitor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

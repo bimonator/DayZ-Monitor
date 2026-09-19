@@ -1,0 +1,11 @@
+# Core - needed by dayz_monitor.py and dayz_report.py
+python-a2s
+requests
+
+# Only needed by dayz_analyzer.py (the PNG calendar / heatmap).
+# On a Raspberry Pi these can take a long time to build from source.
+# Faster alternative there:
+#   sudo apt install python3-pandas python3-matplotlib
+# and create the venv with:  python3 -m venv --system-site-packages venv
+pandas
+matplotlib
