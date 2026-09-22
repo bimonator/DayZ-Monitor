@@ -5,6 +5,7 @@
 
 
 # DayZ Server Monitor
+by bimonator
 
 Watches a DayZ game server around the clock, pings you on Discord when players
 join or leave, and turns the collected data into a report you can actually look
